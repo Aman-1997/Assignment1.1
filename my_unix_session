@@ -1,0 +1,464 @@
+Script started on 2023-05-10 20:51:16+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;root@TIGER01416: ~root@TIGER01416:~# pwd
+[?2004l/root
+[?2004h]0;root@TIGER01416: ~root@TIGER01416:~# ls
+[?2004l[0m[40;31;01mDesktop[0m  [40;31;01mDocuments[0m  [40;31;01mDownloads[0m  [40;31;01mMusic[0m  [40;31;01mPictures[0m  [40;31;01mPublic[0m  [40;31;01mTemplates[0m  [40;31;01mVideos[0m  my_unix_session  [01;34msnap[0m
+[?2004h]0;root@TIGER01416: ~root@TIGER01416:~# ls -F
+[?2004l[0m[40;31;01mDesktop[0m@  [40;31;01mDocuments[0m@  [40;31;01mDownloads[0m@  [40;31;01mMusic[0m@  [40;31;01mPictures[0m@  [40;31;01mPublic[0m@  [40;31;01mTemplates[0m@  [40;31;01mVideos[0m@  my_unix_session  [01;34msnap[0m/
+[?2004h]0;root@TIGER01416: ~root@TIGER01416:~# ls /mnt/c/u[Kusers
+[?2004l [0m[01;34mAdmin[0m  [01;36m'All Users'[0m   [01;34mDefault[0m  [01;36m'Default User'[0m   [34;42mPublic[0m   [34;42maman.ranka[0m   [01;32mdesktop.ini[0m   [01;34mgaia[0m
+[?2004h]0;root@TIGER01416: ~root@TIGER01416:~# ls /mnt/c/users/aman.ranka/dek[Ksktop
+[?2004l [0m[34;42mAgrocel[0m                            [01;32mBromine.docx[0m       [34;42mResume[0m                 [01;32mZoom.lnk[0m                [01;32mticket.pdf[0m
+[01;32m'Aman - Chrome.lnk'[0m                 [01;32mLinks.xlsx[0m         [34;42mTax[0m                    [01;32maman.pdf[0m
+[01;32m'Aman Ranka..docx'[0m                  [01;32mNACL.txt[0m          [01;32m'Tracking Sheet.xlsx'[0m   [01;32mdesktop.ini[0m
+[01;32m'Aman Ranka.docx'[0m                   [34;42mPython[0m             [34;42mTraining[0m               [34;42mshell-lesson-data[0m
+[01;32m'Android MDM setup for Users.pdf'[0m   [01;32mReport_crop.pptx[0m   [01;32mWebex.lnk[0m              [01;32mshell-lesson-data.zip[0m
+[?2004h]0;root@TIGER01416: ~root@TIGER01416:~# cd /mnt/c/users/aman.ranka/desktop/shell-lesson-data
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data# ls
+[?2004l[0m[34;42mshell-lesson-data[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data# cd shell-lesson-data/exercise-data
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# ls -F
+[?2004l[0m[34;42malkanes[0m/  [34;42manimal-counts[0m/  [34;42mcreatures[0m/  [01;32mnumbers.txt[0m*  [34;42mproteins[0m/  [34;42mwriting[0m/
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# ls - F[K[KF - [Ka
+[?2004l[0m[34;42m.[0m/  [34;42m..[0m/  [34;42malkanes[0m/  [34;42manimal-counts[0m/  [34;42mcreatures[0m/  [01;32mnumbers.txt[0m*  [34;42mproteins[0m/  [34;42mwriting[0m/
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# ls -s exercise [K-data
+[?2004lls: cannot access 'exercise-data': No such file or directory
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# cd..
+[?2004lcd..: command not found
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# ls -s exercise-data
+[?2004ltotal 0
+0 [0m[34;42malkanes[0m  0 [34;42manimal-counts[0m  0 [34;42mcreatures[0m  0 [01;32mnumbers.txt[0m  0 [34;42mproteins[0m  0 [34;42mwriting[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# ls
+[?2004l[0m[34;42mexercise-data[0m  [34;42mnorth-pacific-gyre[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# ls north-pacific-gyre/goo
+[?2004lls: cannot access 'north-pacific-gyre/goo': No such file or directory
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data# cd..[K[K ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktoproot@TIGER01416:/mnt/c/users/aman.ranka/desktop# ls
+[?2004l [0m[34;42mAgrocel[0m                            [01;32mBromine.docx[0m       [34;42mResume[0m                 [01;32mZoom.lnk[0m                [01;32mticket.pdf[0m
+[01;32m'Aman - Chrome.lnk'[0m                 [01;32mLinks.xlsx[0m         [34;42mTax[0m                    [01;32maman.pdf[0m
+[01;32m'Aman Ranka..docx'[0m                  [01;32mNACL.txt[0m          [01;32m'Tracking Sheet.xlsx'[0m   [01;32mdesktop.ini[0m
+[01;32m'Aman Ranka.docx'[0m                   [34;42mPython[0m             [34;42mTraining[0m               [34;42mshell-lesson-data[0m
+[01;32m'Android MDM setup for Users.pdf'[0m   [01;32mReport_crop.pptx[0m   [01;32mWebex.lnk[0m              [01;32mshell-lesson-data.zip[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktoproot@TIGER01416:/mnt/c/users/aman.ranka/desktop# cd shell-lesson-data/shell-lesson-data
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# ls
+[?2004l[0m[34;42mexercise-data[0m  [34;42mnorth-pacific-gyre[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# ls -s exercise-data
+[?2004ltotal 0
+0 [0m[34;42malkanes[0m  0 [34;42manimal-counts[0m  0 [34;42mcreatures[0m  0 [01;32mnumbers.txt[0m  0 [34;42mproteins[0m  0 [34;42mwriting[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# cd exercise-data
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# ls
+[?2004l[0m[34;42malkanes[0m  [34;42manimal-counts[0m  [34;42mcreatures[0m  [01;32mnumbers.txt[0m  [34;42mproteins[0m  [34;42mwriting[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# ls [K[K[Kcd writing
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# mkdir thess[Kis
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# ls -F
+[?2004l[0m[01;32mLittleWomen.txt[0m*  [01;32mhaiku.txt[0m*  [34;42mthesis[0m/
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# mkdir -p ../p roject/data ../project/results
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# ls -Fr[KR ../pro ject
+[?2004l../project:
+[0m[34;42mdata[0m/  [34;42mresults[0m/
+
+../project/data:
+
+../project/results:
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# cd thesis
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing/thesisroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing/thesis# nano d raft.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                            draft.txt                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2di[?25l[?12l[?25ht[?25l[?12l[?25h'[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[?12l[?25ho[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25hP[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h"[?25l[3d[?12l[?25h[?25l[28d[K[?12l[?25h[3di[?25l[?12l[?25ht[?25l[?12l[?25h;[?25l[?12l[?25h [?25l[?12l[?25h'[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h"[?25l[?12l[?25h.[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: draft.txt                                                                                           [28;30H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7mx(B[m[?12l[?25h[?25l(B[0;7mx(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 2 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[3;14H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing/thesisroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing/thesis# ls
+[?2004l[0m[01;32mdraft.txt[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing/thesisroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing/thesis# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# mv thesis/dra ft.txt thesis/quotes.txt
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# ls thesis
+[?2004l[0m[01;32mquotes.txt[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# [K]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# mv thesis/quo tes.txt .
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# ls thesis
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# cp quotes.txt  thesis/quotations.txt
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# ls quotes.txt  thesis/quotations.txt
+[?2004l[0m[01;32mquotes.txt[0m  [01;32mthesis/quotations.txt[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# cp -r thesis  thesis_backup
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# ls thesis the sis_backup
+[?2004lthesis:
+[0m[01;32mquotations.txt[0m
+
+thesis_backup:
+[01;32mquotations.txt[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# rm quotes.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# ls quotes.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+[?2004lls: cannot access 'quotes.txt': No such file or directory
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# rm -r thesis
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# ls
+[?2004l[0m[34;42malkanes[0m  [34;42manimal-counts[0m  [34;42mcreatures[0m  [01;32mnumbers.txt[0m  [34;42mproject[0m  [34;42mproteins[0m  [34;42mwriting[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# cd alkanes
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# ls
+[?2004l[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# wc cubane,p[K[K.pdb [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kb
+[?2004l  20  156 1158 cubane.pdb
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# wc *.pdb
+[?2004l  20  156 1158 cubane.pdb
+  12   84  622 ethane.pdb
+   9   57  422 methane.pdb
+  30  246 1828 octane.pdb
+  21  165 1226 pentane.pdb
+  15  111  825 propane.pdb
+ 107  819 6081 total
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# wc -l *.pdb >  lengths.txt
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# ls lengths.tx t
+[?2004l[0m[01;32mlengths.txt[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# cat lengths.t xt
+[?2004l  20 cubane.pdb
+  12 ethane.pdb
+   9 methane.pdb
+  30 octane.pdb
+  21 pentane.pdb
+  15 propane.pdb
+ 107 total
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# sort -n lengt hs.txt
+[?2004l   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# sort -n lengh ts.txt > sorted-lengths.txt
+[?2004lsort: cannot read: lenghts.txt: No such file or directory
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# head -n 1 sor th[Ked-lengths.txt
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# sort -n lengt hs.txt > sorted-lengths.txt
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# head -n 1 sor ted-lengths.txt
+[?2004l   9 methane.pdb
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# sort -n lengh ts.txt | head -n 1
+[?2004lsort: cannot read: lenghts.txt: No such file or directory
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# sort -n lengt hs.txt | head -n 1
+[?2004l   9 methane.pdb
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# wc -l *.pdb |  sort -n
+[?2004l   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# wc -l *.pdb |  sort -n | head n[K-n 1
+[?2004l   9 methane.pdb
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# cd noth [K[K[Krth-pacific-gyre
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyreroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyre# wc -l *.txt
+[?2004l  300 NENE01729A.txt
+  300 NENE01729B.txt
+  300 NENE01736A.txt
+  300 NENE01751A.txt
+  300 NENE01751B.txt
+  300 NENE01812A.txt
+  300 NENE01843A.txt
+  300 NENE01843B.txt
+  300 NENE01971Z.txt
+  300 NENE01978A.txt
+  300 NENE01978B.txt
+  240 NENE02018B.txt
+  300 NENE02040A.txt
+  300 NENE02040B.txt
+  300 NENE02040Z.txt
+  300 NENE02043A.txt
+  300 NENE02043B.txt
+ 5040 total
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyreroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyre# wc -l *.txt | so rt -n \[K| head -n 5
+[?2004l  240 NENE02018B.txt
+  300 NENE01729A.txt
+  300 NENE01729B.txt
+  300 NENE01736A.txt
+  300 NENE01751A.txt
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyreroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyre# ls *x[KZ.txt
+[?2004l[0m[01;32mNENE01971Z.txt[0m  [01;32mNENE02040Z.txt[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyreroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyre# for filename in  basilisk.dat minotaur.dat unicore[Kn.dat[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khead -n 5 basili sk.dat minotaur.dat unicord.dat
+[?2004lhead: cannot open 'basilisk.dat' for reading: No such file or directory
+head: cannot open 'minotaur.dat' for reading: No such file or directory
+head: cannot open 'unicord.dat' for reading: No such file or directory
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyreroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyre# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# cd execc[K[Krcise-data/creatures
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creaturesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures# ls
+[?2004l[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creaturesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures# for filenam e in basilisk.dat minotaur.dat unicord.dat
+[?2004l[?2004h> do [K
+[?2004l[?2004h> echo [K[K[K[K[K ec[K[K[Kecho
+[?2004l[?2004h> filename
+[?2004l[?2004h> head -n 2 filename | tail -n 1
+[?2004l[?2004h> done
+[?2004l
+Command 'filename' not found, but can be installed with:
+apt install wcstools
+head: cannot open 'filename' for reading: No such file or directory
+
+Command 'filename' not found, but can be installed with:
+apt install wcstools
+head: cannot open 'filename' for reading: No such file or directory
+
+Command 'filename' not found, but can be installed with:
+apt install wcstools
+head: cannot open 'filename' for reading: No such file or directory
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creaturesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures# ex[Kcho hello
+[?2004lhello
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creaturesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures# d[Kfor filenam e in basiliks [K[K[Ksk.dat minotaur.dat uniocr[K[K[Kcorn.dat
+[?2004l[?2004h> do
+[?2004l[?2004h> echo #filename
+[?2004l[?2004h> head -n 2 #filename \ [K[K| tail -n 1
+[?2004l[?2004h> done
+[?2004l
+
+
+for     pwd
+pwd
+
+cd
+cd
+exit
+exit
+
+q
+q
+^[^[    done    > done
+'> done
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creaturesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures# '[Kls
+[?2004l[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creaturesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures# for x in ba islisk.dat n[Kminotaur.dat unioc[K[Kcord[Kn,[K.dat
+[?2004l[?2004h> do
+[?2004l[?2004h> he[K[K
+Display all 6395 possibilities? (y or n)
+!
+./
+07409496-a423-4a3e-b620-2cfb01a9318d_HyperV-ComputeNetwork.dll
+0ae3b998-9a38-4b72-a4c4-06849441518d_Servicing-Stack.dll
+69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll
+6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll
+:
+@AdvancedKeySettingsNotification.png
+@AppHelpToast.png
+@AudioToastIcon.png
+@BackgroundAccessToastIcon.png
+@EnrollmentToastIcon.png
+@StorageSenseToastIcon.png
+@VpnToastIcon.png
+--More--[K@WLOGO_48x48.png
+@WindowsHelloFaceToastIcon.png
+@WindowsUpdateToastIcon.contrast-black.png
+@WindowsUpdateToastIcon.contrast-white.png
+@WindowsUpdateToastIcon.png
+@WirelessDisplayToast.png
+@bitlockertoastimage.png
+@edptoastimage.png
+@language_notification_icon.png
+@optionalfeatures.png
+@windows-hello-V4.1.gif
+ACPBackgroundManagerPolicy.dll
+AJRouter.dll
+APHostClient.dll
+--More--[KAPHostRes.dll
+--More--[K> eaadddd    domwxckowmkomqxkmwkxm[K[K[K[K[Khead
+[?2004l[?2004h> h[K^C[?2004l[?2004h^C[?2004l[?2004h[?2004l
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creaturesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures# pwd
+[?2004l/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creaturesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures# for filenam e in *.dat
+[?2004l[?2004h> do
+[?2004l[?2004h> echo $filename
+[?2004l[?2004h> head -n 100 $filename | tail -n 20
+[?2004l[?2004h> done
+[?2004lbasilisk.dat
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+minotaur.dat
+GGTTGGACCG
+AGTGAACGAA
+GCGATTGATG
+CCCAGTATTG
+GTTTCGGGTC
+CCACCAGGAA
+CAATGTTGGA
+CTTTAGCACG
+ACAGGAATCA
+ATCGTTTCGT
+AATGGTGGCA
+CTTTGGGGTT
+GCAGGCCCGC
+CTGTGCCTTC
+AACGGTCGGC
+AAATAGGACA
+GAGATTTCCT
+GCCTCAAACA
+TCGCAAGACG
+ATTTATCCGG
+unicorn.dat
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creaturesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/creatures# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# cd noth [K[K[Krth-pacific-gyre
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyreroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyre# for datafile in  NENE*A.txt NENE*b[KB.txt 
+[?2004l[?2004h> do 
+[?2004l[?2004h> echo $datafile
+[?2004l[?2004h> done
+[?2004lNENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyreroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyre# for datafile in  NENE*A.TXT [K[K[Ktxt[K[K[K[Ktxt NENE*b[KB.txt
+[?2004l[?2004h> do
+[?2004l[?2004h> echo $datafile stats-$datafile
+[?2004l[?2004h> done
+[?2004lNENE01729A.txt stats-NENE01729A.txt
+NENE01736A.txt stats-NENE01736A.txt
+NENE01751A.txt stats-NENE01751A.txt
+NENE01812A.txt stats-NENE01812A.txt
+NENE01843A.txt stats-NENE01843A.txt
+NENE01978A.txt stats-NENE01978A.txt
+NENE02040A.txt stats-NENE02040A.txt
+NENE02043A.txt stats-NENE02043A.txt
+NENE01729B.txt stats-NENE01729B.txt
+NENE01751B.txt stats-NENE01751B.txt
+NENE01843B.txt stats-NENE01843B.txt
+NENE01978B.txt stats-NENE01978B.txt
+NENE02018B.txt stats-NENE02018B.txt
+NENE02040B.txt stats-NENE02040B.txt
+NENE02043B.txt stats-NENE02043B.txt
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyreroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/north-pacific-gyre# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data# cd exercise-data/alkanes
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# nano middle.s h
+[?2004l[?2004h[?1049h[22;0;0t[1;15r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[13;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                            middle.sh                                                     [1;119H(B[m[14d(B[0;7m^G(B[m Help[14;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[14;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[15d(B[0;7m^X(B[m Exit[15;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 1[?25l[?12l[?25h5[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h o[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[13d[K[?12l[?25h[2;20Hd[?25l[?12l[?25hb[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 5[?25l[14;16H[15X[14;31H(B[0;7mM-D(B[m DOS Format       [14;61H(B[0;7mM-A(B[m Append[16X[14;93H(B[0;7mB(B[m Backup File[K[15;2H(B[0;7mC(B[m Cancel[16G[15X[15;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[15;91H(B[0;7m^T(B[m Browse[K[13d(B[0;7mFile Name to Write: middle.sh                                                                                           [13;30H(B[m[?12l[?25h[?25l[13;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[13;53H(B[0;7m[ Wrote 1 line ](B[m[14;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[14;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[15;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[2;34H[?25l[13d[J[15d[?12l[?25h[15;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# bash middle.s h
+[?2004lATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# nam[Kno middle.s h
+[?2004l[?2004h[?1049h[22;0;0t[1;15r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[13;54H(B[0;7m[ Reading... ](B[m[13;53H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 6.2                                            middle.sh                                                     [1;119H(B[m[14d(B[0;7m^G(B[m Help[14;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[14;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[15d(B[0;7m^X(B[m Exit[15;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 octane.pdb [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2dead[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h-n[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[13d[K[?12l[?25h[2d[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hail(B[0;1m[35m -n[39m(B[m 5[K[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m 5[K[?25l[?12l[?25h-n 5[K[?25l[?12l[?25hn 5[K[?25l[?12l[?25h 5[K[?25l[?12l[?25h5[K[?25l[?12l[?25h[K[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 1[?25l[?12l[?25h5[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$1"[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 5[?25l[3d[?12l[?25h[?25l[14;16H[15X[14;31H(B[0;7mM-D(B[m DOS Format       [14;61H(B[0;7mM-A(B[m Append[16X[14;93H(B[0;7mB(B[m Backup File[K[15;2H(B[0;7mC(B[m Cancel[16G[15X[15;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[15;91H(B[0;7m^T(B[m Browse[K[13d(B[0;7mFile Name to Write: middle.sh                                                                                           [13;30H(B[m[?12l[?25h[?25l[13;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[13;52H(B[0;7m[ Wrote 2 lines ](B[m[14;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[14;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[15;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[3d[?25l[13d[J[15d[?12l[?25h[15;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# bash middle.s h octane,[K.pdb
+[?2004lATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanesroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/alkanes# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# cd writing
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# cat haiku.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+[?2004lThe Tao that is seen
+Is not the true Tao, until
+You bring fresh toner.
+
+With searching comes loss
+and the presence of absence:
+"My Thesis" not found.
+
+Yesterday it worked
+Today it is not working
+Software is like that.
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# grep not haik u.txt
+[?2004lIs [01;31m[Knot[m[K the true Tao, until
+"My Thesis" [01;31m[Knot[m[K found.
+Today it is [01;31m[Knot[m[K working
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# grep -n "it"  haiku.txt
+[?2004l[32m[K5[m[K[36m[K:[m[KW[01;31m[Kit[m[Kh searching comes loss
+[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
+[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# grep -n -w -v  "the" haiku.txt
+[?2004l[32m[K1[m[K[36m[K:[m[KThe Tao that is seen
+[32m[K3[m[K[36m[K:[m[KYou bring fresh toner.
+[32m[K4[m[K[36m[K:[m[K
+[32m[K5[m[K[36m[K:[m[KWith searching comes loss
+[32m[K7[m[K[36m[K:[m[K"My Thesis" not found.
+[32m[K8[m[K[36m[K:[m[K
+[32m[K9[m[K[36m[K:[m[KYesterday it worked
+[32m[K10[m[K[36m[K:[m[KToday it is not working
+[32m[K11[m[K[36m[K:[m[KSoftware is like that.
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writingroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data/writing# cd ..
+[?2004l[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# find .
+[?2004l.
+./alkanes
+./alkanes/cubane.pdb
+./alkanes/ethane.pdb
+./alkanes/lengths.txt
+./alkanes/methane.pdb
+./alkanes/middle.sh
+./alkanes/octane.pdb
+./alkanes/pentane.pdb
+./alkanes/propane.pdb
+./alkanes/sorted-lengths.txt
+./animal-counts
+./animal-counts/animals.csv
+./creatures
+./creatures/basilisk.dat
+./creatures/minotaur.dat
+./creatures/unicorn.dat
+./numbers.txt
+./project
+./project/data
+./project/results
+./proteins
+./proteins/cubane.pdb
+./proteins/ethane.pdb
+./proteins/methane.pdb
+./proteins/octane.pdb
+./proteins/pentane.pdb
+./proteins/propane.pdb
+./writing
+./writing/haiku.txt
+./writing/LittleWomen.txt
+./writing/thesis_backup
+./writing/thesis_backup/quotations.txt
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# find . -name *.txt
+[?2004l./numbers.txt
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# grep "searching" $(fi nd . -name "*.txt")
+[?2004l[35m[K./writing/haiku.txt[m[K[36m[K:[m[KWith [01;31m[Ksearching[m[K comes loss
+[35m[K./writing/LittleWomen.txt[m[K[36m[K:[m[Ksitting on the top step, affected to be [01;31m[Ksearching[m[K for her book, but was
+[?2004h]0;root@TIGER01416: /mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-dataroot@TIGER01416:/mnt/c/users/aman.ranka/desktop/shell-lesson-data/shell-lesson-data/exercise-data# exit
+[?2004lexit
+
+Script done on 2023-05-10 22:34:38+05:30 [COMMAND_EXIT_CODE="0"]
